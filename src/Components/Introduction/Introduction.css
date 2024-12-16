@@ -1,0 +1,12 @@
+.description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: justify;
+  line-height: 2rem;
+  letter-spacing: 0.03rem;
+ 
+}
+.description::first-letter {
+  font-size: 1.5em;
+}

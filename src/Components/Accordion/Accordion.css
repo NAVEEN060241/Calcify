@@ -1,0 +1,61 @@
+.manual-description {
+  margin-top: 70px;
+}
+
+.accordion-heading,
+.accordion-header {
+  font-family: "Chillax-Medium";
+}
+
+.accordion {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.accordion-header {
+  font-size: 1.1em;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  border: 1px solid gray !important;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  color: antiquewhite !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 1em !important;
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+
+.accordion-body::first-letter {
+  font-size: 2em !important;
+  line-height: 5px;
+}
+
+.accordion-button:hover {
+  background: linear-gradient(45deg, #92fe9d 0%, #00c9ff 100%) !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background: linear-gradient(45deg, #92fe9d 0%, #00c9ff 100%) !important;
+  color: black !important;
+}
+
+.accordion-body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  background-color: #12131f !important;
+  color: antiquewhite !important;
+  font-size: 1.1em !important;
+  text-align: justify;
+  padding: 25px !important;
+  border-left: 1px solid gray;
+  border-right: 1px solid gra y;
+  line-height: 2rem;
+}
